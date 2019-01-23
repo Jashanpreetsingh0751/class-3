@@ -10,6 +10,13 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            int sum = 0;
+            for (int i = 0; i < 5; i++)
+            {
+                sum += 1;
+            }
+            Console.WriteLine("sum is{0}", sum);
+            Console.ReadLine();
         }
     }
 }
